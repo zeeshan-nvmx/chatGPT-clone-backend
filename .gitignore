@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# dotenv environment variables
+.env
+.env.*  # Optional: ignore other environment files like .env.production or .env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories
+dist/
+build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Optional: if using npm 5+
+package-lock.json
+
+# Optional: if using yarn
+yarn.lock
+.pnp.*
